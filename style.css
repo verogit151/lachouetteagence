@@ -294,7 +294,7 @@ a.menu:focus {
     font-size: 32px;
 }
 
-a.bloc-button:focus, button:a {
+a.bloc-button:focus, button:focus {
     border: 1px black solid;
 } 
 
