@@ -798,6 +798,10 @@ a.bold-link:focus {
     background-color: #364577;
 }
 
+.bgc-atomic-tangerine {
+    background-color: #F3976C;
+}
+
 .tc-white {
     color: #ffffff!important;
     font-size: 26px;
