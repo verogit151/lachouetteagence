@@ -294,6 +294,10 @@ a.menu:focus {
     font-size: 32px;
 }
 
+a.bloc-button:focus, button:a {
+    border: 1px black solid;
+} 
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -529,13 +533,17 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    /* opacity: 0; */
+    border: 2px rgb(97, 97, 97) solid;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
 
 .scrollToTop span {
     margin-top: 6px;
+}
+.scrollToTop:focus {
+    border: 1px black solid;
 }
 
 .showScrollTop {
@@ -799,7 +807,7 @@ a.bold-link:focus {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #AC4902;
 }
 
 .tc-white {
@@ -817,7 +825,7 @@ a.bold-link:focus {
     background: #6A2805!important;
     color: #FFFFFF!important;
 }
-a.btn-atomic-tangerine:focus {
+.btn-atomic-tangerine:focus {
     border: 1px black solid;
 }
 
