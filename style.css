@@ -18,8 +18,11 @@ a:hover {
     cursor: pointer;
 }
 
-a.menu:focus {
+a.accueil:focus, a:contact:focus {
     border: 1px black solid;
+}
+a.menu-actif {
+    border-bottom: 2px rgb(37, 37, 37) solid;
 }
 
 #page-loading-blocs-notifaction {
@@ -147,7 +150,6 @@ a.menu:focus {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -158,6 +160,19 @@ a.menu:focus {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+}
+
+.d-bloc a.social-twitter:hover .icon-md {
+    color: #00acee;
+}
+.d-bloc a.social-facebook:hover .icon-md {
+    color: #39569C;
+}
+.d-bloc a.social-dribbble:hover .icon-md {
+    color: #ea4c89;
+}
+.d-bloc a.social-instagram:hover .icon-md {
+    color: #3f729b;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -724,8 +739,17 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-.social a:focus {
-    border: 1px black solid;
+a.social-twitter:focus {
+    color: #00acee;
+}
+a.social-facebook:focus {
+    color: #39569C;
+}
+a.social-dribbble:focus {
+    color: #ea4c89;
+}
+a.social-instagram:focus {
+    color: #3f729b;
 }
 
 h2 {
