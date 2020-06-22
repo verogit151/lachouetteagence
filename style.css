@@ -739,16 +739,16 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-a.social-twitter:focus {
+.d-bloc a.social-twitter:focus .icon-md {
     color: #00acee;
 }
-a.social-facebook:focus {
+.d-bloc a.social-facebook:focus .icon-md {
     color: #39569C;
 }
-a.social-dribbble:focus {
+.d-bloc a.social-dribbble:focus .icon-md {
     color: #ea4c89;
 }
-a.social-instagram:focus {
+.d-bloc a.social-instagram:focus .icon-md {
     color: #3f729b;
 }
 
