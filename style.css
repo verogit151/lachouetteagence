@@ -937,12 +937,12 @@ a.bold-link:focus {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /* .bloc {
         padding:env(safe-area-inset-top)
                 env(safe-area-inset-right)
                 env(safe-area-inset-bottom)
                 env(safe-area-inset-left);
-    }
+    } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -951,8 +951,8 @@ a.bold-link:focus {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: max(20px, constant(safe-area-inset-left));
-        padding-right: max(20px, constant(safe-area-inset-right));
+        /* padding-left: max(20px, constant(safe-area-inset-left));
+        padding-right: max(20px, constant(safe-area-inset-right)); */
     }
 }
 
